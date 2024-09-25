@@ -91,7 +91,7 @@ The next release of CodeProject.AI Server will include an option to install OCR 
 
 ## Postscript: GPU support for PaddlePaddle in Ubuntu under WSL
 
-This one has defeated us so far. PaddleOCR (CPU only) in Ubunut 22.04 on WSL works fine. GPU enabled does not. One major issue with WSL is you need to install CUDA in WSL rather than rely on the Windows CUDA drivers doing their thing. A write-up can be found [here](https://chennima.github.io/cuda-gpu-setup-for-paddle-on-windows-wsl). Once you have CUDA installed, test it be opening a Python terminal and entering
+This one has defeated us so far. PaddleOCR (CPU only) in Ubunut 22.04 on WSL works fine. GPU enabled does not. One major issue with WSL is you need to install CUDA in WSL rather than rely on the Windows CUDA drivers doing their thing. A write-up can be found [here](https://chennima.github.io/cuda-gpu-setup-for-paddle-on-windows-wsl). Once you have CUDA installed, test it by opening a Python terminal and entering
 
 ```python
 import paddle
